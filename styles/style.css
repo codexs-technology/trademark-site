@@ -1,0 +1,210 @@
+.container{ width:900px; margin:auto;}
+
+/*Header*/
+#header{ background:url(../images/header_bg.jpg) no-repeat; height:119px; padding:31px 43px 0 27px;}
+#header .logo{ float:left;}
+#header .search{ float:right; margin-top:15px;}
+#header .search .link{ font-weight:400; font-size:14px; color:#fff; margin-bottom:6px;}
+#header .search .link a{color:#fff;}
+#header .search .link a:hover{ color:#f7ef6c; text-decoration:none;}
+/* #header .search input.text{ background:#fff; border:none; padding:4px 5px 5px; font-size:12px; float:left; width:223px;} */
+#header .search input.search_input{ background:#fff; border:none; padding:4px 5px 5px; font-size:12px; float:left; width:223px;}
+#header .search input.button{ background:url(../images/button_go.png) no-repeat; height:24px; width:33px; float:left; cursor:pointer;}
+.ac_over{ border: 1px solid #999999; background: #dadada url(../images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #212121; }
+
+/*Accessible*/
+.accessible {
+    display: block !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    width: 0 !important;
+}
+
+
+
+/*Slides*/
+#slides{ clear:both;}
+
+/*Middle*/
+#middle{ background:#fff; overflow:hidden; clear:both;}
+/*#middle #leftSec{ float:left; width:300px;padding-bottom:3px;}*/
+#middle #leftSec{ float:left; width:300px;}
+#middle #midSec{ float:left; width:300px;}
+#middle #rightSec{ float:left; width:300px;}
+
+/*Mmiddle > LeftSec > DynamicText*/			/*Modified by Khan 2012-01-31*/
+#middle #leftSec .dynamicText{ margin:0px; padding:0px; list-style:none;}
+#middle #leftSec .dynamicText li{ background:#dbe6f4; float:left; display:block; margin-bottom:2px; overflow:hidden;}
+#middle #leftSec .dynamicText li a{width:266px; display:block; overflow: hidden;padding:4px 9px 5px 25px; }
+#middle #leftSec .dynamicText li a:hover{ background:#9abde1; text-decoration:none;}
+#middle #leftSec .dynamicText li .left{ float:left; width:145px; margin-top:8px; cursor:pointer; color:#000;}
+#middle #leftSec .dynamicText li img.user{ float:right;}
+#middle #leftSec .dynamicText li img{ width:91px;height:91px;}
+#middle #leftSec .dynamicText li span.p{ line-height:19px; display:block; padding-top:3px;}
+#middle #leftSec .dynamicText li span.h4{ font-size:medium; font-weight:bolder; display:block; color:#555;}
+
+#middle #midSec .innerColumns{ padding:30px 0 0 25px; }
+#middle #midSec .popular{ margin:0px 0 30px 0; padding:0px; list-style:none;}
+#middle #midSec .popular li{ padding-left:5px; margin-bottom:8px;}
+#middle #midSec .popular li a{ color:#3c57ba; }
+#middle #midSec .popular li a:hover{ text-decoration:underline; color:#3c57ba;}
+
+/*Mmiddle > MidSec > Resources*/
+#middle #midSec .resources p{ font-size:14px; margin-bottom:5px; padding-left:5px;}
+#middle #midSec .resources p a{ font-size:12px; display:block; color:#3354a8;}
+
+/*Mmiddle > MidSec > America Invets*/
+#middle #midSec .americaInvets{ }
+#middle #midSec .americaInvets a{ height:100px; width:300px; display:block; background:url(../images/patent-litigation.jpg) left top no-repeat;}
+#middle #midSec .americaInvets a:hover{ background:url(../images/patent-litigation.jpg) left top no-repeat;}
+
+/*Mmiddle > RightSec > Resources*/
+#middle #rightSec .rightLink{ margin:0px; padding:0px; list-style:none; overflow:hidden;}
+#middle #rightSec .rightLink li{ height:50px; font-size:28px; float:left; width:283px; font-weight:700; background:#1e486d; padding-left:17px; }
+#middle #rightSec .rightLink li.p{background-color:#1e486d;}
+#middle #rightSec .rightLink li.t{background-color:#3354a8;}
+#middle #rightSec .rightLink li.i{background-color:#6699cc;}
+#middle #rightSec .rightLink li a{ color:#fff; display:block; height:44px; padding:6px 0 0 0px; text-decoration:none; text-indent:-99999px; font-size:0px; line-height:0px;}
+#middle #rightSec .rightLink li a:hover{}
+#middle #rightSec .rightLink li a span{background:url(../images/arrow.png) no-repeat left top; width:32px; height:14px; display:block; margin-top:11px; cursor:pointer}
+html* #middle #rightSec .rightLink li a span{ margin-top:17px;}
+#middle #rightSec .rightLink li a:hover span{background:url(../images/arrow_ho.png) no-repeat left top;}
+#middle #rightSec .rightLink li a{ background:url(../images/patents.jpg) 40px 10px no-repeat;}
+#middle #rightSec .rightLink li.t a{ background-image:url(../images/trademarks.jpg);}
+#middle #rightSec .rightLink li.i a{ background-image:url(../images/iplaw_policy.jpg) ;}
+
+/*Mmiddle > RightSec > Resources*/
+#middle #rightSec { margin-bottom:100px;}
+#middle #rightSec .innerColumns{ padding:14px 0 0 23px; overflow:hidden;  }
+#middle #rightSec .innerColumns ul{ margin:0px; padding:0px; list-style:none}
+#middle #rightSec .innerColumns ul li{ border-bottom: solid 1px #afc1d3; padding:0 40px 5px 5px;  margin-bottom:5px;}
+#middle #rightSec .innerColumns ul li a{ color:#3354a8}
+#middle #rightSec .innerColumns .headlines{ float:right;font-weight:900; padding-right:25px; clear:both; color:#3354a8;}
+
+/*Mmiddle > RightSec > Resources*/
+#middle #rightSec .subscription{font-weight:400; background-color:#7f7f7f; color:#7f7f7f; clear:both; display:block; font-size:19px; margin-top:50px; padding:10px 0 5px 23px;}
+#middle #rightSec .subscription span{ display:block; background:#7f7f7f url(../images/subscription_center.png) left top no-repeat; width:238px; height:34px; text-indent:-999999px; font-size:0px; line-height:0px; cursor:pointer;}
+#middle #rightSec .subscription:hover{ background:#000; text-decoration:none; color:#000;}
+#middle #rightSec .subscription:hover span{background-color:#000; }
+
+/*Mmiddle > RightSec > social*/
+#middle #rightSec .social{ float:right; padding:6px 13px 0 0;}
+#middle #rightSec .social a{ float:right; margin-right:5px;}
+
+#middle { position:relative;}
+.rightBottom{ position:absolute; width:300px; height:132px; bottom:5px;  right:0px;}
+
+
+/* Footer */
+
+#footer {
+	font-size:11px;
+       clear: both;
+	width:900px;
+	padding: 8px 0 0px 0;
+	text-align: left;
+	background-color: #ebebeb;
+	border-top: #2442b2 6px solid;
+	border-bottom: #101315 1px solid;
+}
+#footer a{ color:#031D4E; text-decoration:underline;}
+#footer .col {
+	float: left; 
+	padding: 0 10px 0 10px;
+	border-left: #a4a4a4 1px solid;
+}
+#footer .col {
+	width: 172px;
+}
+#footer .colLogos {
+	float: left; 
+	padding: 0 10px 0 2px;
+	text-align: center;
+}
+#footer .colLogos {
+	width: 108px;
+}
+#footer ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+#footer ul li {
+	background: url("../images/bulletFooter.jpg") 0 5px no-repeat;
+	padding-left: 12px;
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+#footer .print {
+    display: none;
+}
+
+/* @end */
+
+ 
+ 
+ 
+/*Menu*/
+#menu{ background:#3c57ba; height:39px; width:900px;}
+#menu>ul { margin:0 0 0 20px; padding:2px 0 0 0; list-style:none;}
+#menu ul li { color:#cfdcea; float:left; font-weight:400;padding:0 0px; font-size:13px; position:relative; z-index:999;}
+#menu ul li span{ float:left; background:#3c57ba url(../images/sep.jpg) 1px 10px no-repeat; width:5px; height:36px;}
+#menu ul li a{ color:#cfdcea; float:left; line-height:32px; padding:1px 3px 4px 4px; text-decoration:none;}
+#menu ul li a:hover,#menu >ul>li:hover>a, #menu ul li.active a{ color:#f7ef6c; text-decoration:none;}
+
+/*Menu drop down*/
+#menu ul li ul{ width:170px; position:absolute; background:#fff; border: solid 1px #5a5d61; padding:0px; z-index:9999; left:0px; top:37px;}
+#menu ul li ul li{ background:#fff; display:block; font-family:Arial, Helvetica, sans-serif;font-size:13px; }
+#menu ul li ul li a{ padding:0px; padding:6px 6px 6px 4px; width:160px; line-height:normal; color:#0c1017; border-bottom: solid 1px #e3e3e3;}
+#menu ul li ul li:hover{ background:#5a5d61; color:#FFFFFF; text-decoration:none; }
+#menu ul li ul li a:hover{ color:#fff; background:#5a5d61;border-bottom: solid 1px #5a5d61;}
+
+/* style the table so that it takes no part in the layout - required for IE to work */
+#menu table {position:absolute; left:0; top:0; z-index:-1; width:170px;}
+#menu ul ul table {lef\t:0px;}
+#menu ul ul table ul.left {margin-lef\t:0px;}
+
+#menu li:hover {position:relative;}
+* html #menu a:hover {position:relative; color:#f7ef6c}
+
+/* style the level hovers */
+/* first */
+.menu a:hover {color:#f7ef6c;}
+.menu :hover > a {color:#f7ef6c;}
+/* second */
+.menu ul ul a:hover{color:#fff;background:#5a5d61;}
+.menu ul ul :hover > a {color:#fff;background:#5a5d61;}
+/* third */
+.menu ul ul ul a:hover {color:#fff;background:#5a5d61;}
+.menu ul ul ul :hover > a {color:#fff;background:#5a5d61;}
+/* fourth */
+.menu ul ul ul ul a:hover {color:#fff;background:#5a5d61;}
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+#menu ul ul {visibility:hidden; position:absolute; height:0; left:0; }
+
+/* make the second level visible when hover on first level list OR link */
+#menu ul li:hover ul, #menu ul a:hover ul {visibility:visible; height:auto;}
+
+/* keep the third level hidden when you hover on first level list OR link */
+#menu ul :hover ul ul{visibility:hidden;}
+
+/* keep the fourth level hidden when you hover on second level list OR link */
+#menu ul :hover ul :hover ul ul{visibility:hidden;}
+
+/* make the third level visible when you hover over second level list OR link */
+#menu ul :hover ul :hover ul{visibility:visible;}
+
+/* make the fourth level visible when you hover over third level list OR link */
+#menu ul :hover ul :hover ul :hover ul {visibility:visible;}
+
+#menu ul li.nav_seperator{ background:url(../images/sep.jpg) 2px 10px no-repeat; width:5px; height:35px;}
+
+.feedback { background:#fff; padding:5px 0px 5px 0px;color:#000; }
+.feedback a {
+    color: #031D4E;
+    text-decoration:underline;
+}
+
+
+ 

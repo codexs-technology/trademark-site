@@ -1,0 +1,175 @@
+/* THINGS TO KEEP IN MIND
+
+ -- CSS Rules! When building your slideshows, remember that animation effects work best when both the container and slide have a fixed box.
+
+*/
+
+#slideshow-container {
+	position: relative;
+	margin: auto;
+	padding: 0;
+	width: 900px; /* equal .slideshow */
+/*	height: 350px; /* 350px (equal to .slideshow)   Commented out  by Sree*/
+	border-bottom: 1px solid #fff;
+	background-color: #dbe6f4;
+	color:#000;
+}
+.slideshow {
+/*	height: 350px; /* took image dimensions & added 20px to both height and width to reflect padding in .slideshow img Commented Out By Sree*/
+	width: 900px;
+	margin: auto;
+	overflow: hidden;
+}
+.slideshow * {
+	margin: 0;
+	padding: 0;
+}
+
+.slideshow .featureRight{
+	float:right;
+	width:600px;
+	height:350px;
+}
+.slideshow img {
+	float: right;
+	padding: 0px 0px;
+	width:600px;
+	height:350px;
+}
+
+.slideshow .featureLeft{
+	float:left;
+	width:300px;
+}
+.slideshow .featureLeft h4{
+	display:block;
+	width:250px;
+	font: normal 20px arial;
+	color:#000;
+	line-height:25px;
+	margin: 25px 0 25px 25px;
+}
+
+.slideshow .featureLeft p{
+	display:block;
+	width:250px;
+	font: normal 12px arial;
+	color:#000;
+	padding: 8px 0 0 25px;
+	line-height:18px;
+}
+.slideshow p {
+	float: left;
+	/* 900px (.slideshow) - 590px (.slideshow img) - 30px (.slideshow p padding) */
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+}
+.description {
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:0px; /* position will be on bottom */
+	left:300px;
+	width:570px;
+	height:45px;
+	padding:0 15px;
+	/* styling below */  
+      background:url(../images/description.png) no-repeat;
+	font-family: 'arial';
+	font-size:12px;
+	color:#fff;
+}
+.descriptionNS {
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:0px; /* position will be on bottom */
+	left:300px;
+	width:570px;
+	height:45px;
+	padding:0 15px;
+	/* styling below */  
+      background:#000;
+	font-family: 'arial';
+	font-size:11px;
+	color:#fff;
+}
+p.description_content {
+	padding:5px;
+	margin:0px;
+	font-size:11px;
+	line-height:14px;
+	color:#fff;
+}
+.pagination { 
+	position:absolute; 
+	left:0px;
+	bottom:0px;
+	background:#6699cc;
+	width:275px;
+	height:32px;
+	margin:0px;
+	padding:13px 0 0 25px;
+	z-index:100
+}
+html* .pagination { top:305px;}
+#nav a {
+	margin:0 5px 0 0;
+	float:left;
+	background:#2442b2;
+	text-decoration: none;
+	margin: 0 6px 0 0;
+	height:18px;
+	width:18px;
+	text-indent:-99999px;
+	overflow:hidden;
+	color:white
+}
+#nav a.activeSlide {
+	background: #fff
+}
+#nav a:focus {
+	outline: none;
+}
+#nav {
+}
+.commandButton {
+	
+}
+
+/* Added By Sree */
+
+.feature {
+        height: 350px;
+        position:relative;
+         }
+
+.paginationNS {
+    position:absolute; 
+	left:0px;
+	bottom:0px;
+	background:#6699cc;
+	width:275px;
+	height:32px;
+	margin:0px;
+	padding:13px 0 0 25px;
+	z-index:100
+}
+html* .paginationNS { top:305px;}
+.noscript .paginationNS { 
+	display:block;
+}
+
+.noscript .pagination { 
+	display:none;
+}
+
+.noscript .commandButton {
+	display:none;
+}
+
+
+.feature h4 a{color:#000; text-decoration:none;}
+.featureHover{ cursor:pointer;}
+.featureHover h4 a{
+	display:block;
+	color:#3C57BA;
+	line-height:25px;
+	text-decoration:none;
+}

@@ -1,0 +1,209 @@
+/*
+Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.5.0
+*/
+/* base.css, part of YUI's CSS Foundation */
+h1 {
+	/*18px via YUI Fonts CSS foundation*/
+	font-size:138.5%;  
+}
+h2 {
+	/*16px via YUI Fonts CSS foundation*/
+	font-size:123.1%; 
+}
+h3 {
+	/*14px via YUI Fonts CSS foundation*/
+	font-size:108%;  
+}
+h1,h2,h3 {
+	/* top & bottom margin based on font size */
+	margin:1em 0;
+}
+h1,h2,h3,h4,h5,h6,strong {
+	/*bringing boldness back to headers and the strong element*/
+	font-weight:bold; 
+}
+abbr,acronym {
+	/*indicating to users that more info is available */
+	border-bottom:1px dotted #000;
+	cursor:help;
+} 
+em {
+	/*bringing italics back to the em element*/
+	font-style:italic;
+}
+blockquote,ul,ol,dl {
+	/*giving blockquotes and lists room to breath*/
+	margin:1em;
+}
+ol,ul,dl {
+	/*bringing lists on to the page with breathing room */
+	margin-left:2em;
+}
+ol li {
+	/*giving OL's LIs generated numbers*/
+	list-style: decimal outside;	
+}
+ul li {
+	/*giving UL's LIs generated disc markers*/
+	list-style: disc outside;
+}
+dl dd {
+	/*giving UL's LIs generated numbers*/
+	margin-left:1em;
+}
+th,td {
+	/*borders and padding to make the table readable*/
+	border:1px solid #000;
+	padding:.5em;
+}
+th {
+	/*distinguishing table headers from data cells*/
+	font-weight:bold;
+	text-align:center;
+}
+caption {
+	/*coordinated margin to match cell's padding*/
+	margin-bottom:.5em;
+	/*centered so it doesn't blend in to other content*/
+	text-align:center;
+}
+p,fieldset,table,pre {
+	/*so things don't run into each other*/
+	margin-bottom:1em;
+}
+/* setting a consistent width, 160px; 
+   control of type=file still not possible */
+input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em;}
+
+/*
+ * Custom rules for USPTO
+ */
+ 
+ul {
+    margin-left: 1em;
+    padding-left: 1em;
+}
+#hd {
+    margin-bottom: 1em;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+#hd #globals,
+#hd #nav-container {
+    display: none;
+}
+#hd h1 {
+    margin-top: 0;
+    margin-bottom: .3em;
+    font-size: 160%;
+}
+#hd h2 {
+    margin-top: 0;
+    margin-bottom: .3em;
+    font-size: 120%;
+}
+.yui-b {
+    display: none;
+} 
+.noshow {
+    display: none;
+} 
+#yui-main {
+    float: none !important;
+    margin-left: 0 !important;
+}
+#yui-main .yui-b {
+    display: block;
+    margin-left: 0 !important;
+}
+#breadcrumb-container {
+    display: none;
+}
+.badge {
+    display: none;
+}
+.link-box {
+    border: 1px solid #000;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.top {
+    display: none;
+}
+
+/* @group Home Page */
+
+.home .news {
+    clear: both;
+    display: block !important;
+    margin-top: 1em;
+}
+.home .news img {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+#homeContent {
+    clear: both;
+    margin-top: 1em;
+}
+#newsbar .col {
+    display: none;
+}
+#newsbar img {
+    margin-bottom: 1em;
+}
+#homeContentTop {
+    display: none;
+}
+#homeContent .col {
+    float: none;
+}
+#homeContent .col span img {
+    display: none;
+}
+#newsboxBottom .headline {
+    clear: both;
+    display: block;
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+#newsboxBottom img {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+/* @end */
+
+/* @group Footer */
+
+#ft {
+    border-top: 1px solid #000;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+#ft .col,
+#ft .colLogos {
+    display: none;
+}
+#ft .print {
+    display: block;
+}
+
+/* @end */
+
+/* @ Utility */
+
+.accessible {
+    display: none;
+}
+#article a:link:after,
+#article a:visited:after {
+    content: " (" attr(href) ") ";
+    font-size: 90%;
+}
+
+/* @end */

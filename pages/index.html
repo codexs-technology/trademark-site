@@ -1,0 +1,773 @@
+<html xmlns:xalan-nodeset="org.apache.xalan.xslt.extensions.Nodeset" xmlns:java="http://xml.apache.org/xslt/java" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:pto="urn:us:gov:doc:uspto:enterprise" xmlns:bf="http://www.uspto.gov/bf" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Manual of Patent Examining Procedure</title>
+  <!-- MPEP Metadata: /includes/general/mpep_metadata.html-->
+  <!-- ID = $Id: mpep_metadata.html 1812 2010-12-13 14:53:27Z janaki $ -->
+  <!-- URL = $URL: https://dev-wmb-svn.etc.uspto.gov/repos/live/active_content/trunk/includes/general/mpep_metadata.html $ -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="United States Patent and Trademark Office, USPTO, Manual of Patent Examining Procedure, MPEP">
+  <meta name="dc.title" content="MPEP">
+  <meta name="dc.description" content="Manual of Patent Examining Procedure">
+  <meta name="dc.creator" content="MPEP Resources">
+  <meta name="dc.date.created" scheme="ISO8601" content="2010-11-19">
+  <meta name="dc.date.reviewed" scheme="ISO8601" content="2010-11-19">
+  <meta name="dc.language" scheme="DCTERMS.RFC1766" content="EN-US">
+
+  <!-- End of mpep_metadata.html -->
+
+  <!-- CSS and JavaScript includes: /includes/general/stylesandjs.html -->
+  <!-- Used in: MPEP, TMEP -->
+  <!-- ID = $Id: stylesandjs.html 3236 2013-02-21 19:03:02Z janaki $ -->
+  <!-- URL = $URL: https://dev-wmb-svn.etc.uspto.gov/repos/live/active_content/trunk/includes/general/stylesandjs.html $ -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../styles/reset-fonts-grids.css" type="text/css" media="all" charset="utf-8">
+  <link rel="stylesheet" href="../styles/base-min.css" type="text/css" media="all" charset="utf-8">
+  <link rel="stylesheet" href="../styles/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="../styles/base.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="../styles/print.css" type="text/css" media="print" charset="utf-8">
+  <link rel="stylesheet" href="../styles/style.css" type="text/css">
+  <link rel="stylesheet" href="../styles/slideshows.css" type="text/css">
+  <script type="text/javascript" id="www-widgetapi-script" src="../scripts/www-widgetapi.js" async></script><script src="/iframe_api"></script><script type="text/javascript" async src="/gtag/js"></script><script type="text/javascript" async src="/gtag/js"></script><script async src="../scripts/gtm.js"></script><script type="text/javascript" src="../scripts/yahoo-dom-event.js"></script>
+  <script type="text/javascript" src="../scripts/selector-beta-min.js"></script>
+  <script type="text/javascript" src="../scripts/feedback.js"></script>
+  <script type="text/javascript" src="../scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="../scripts/uspto_head_1.js"></script><script src="../scripts/12-www.js" type="text/javascript" defer></script>
+  <!--<script type="text/javascript" src="/includes/j/slides.jquery.js"></script>
+<script type="text/javascript" src="/includes/j/jquery.easing.js"></script>-->
+  <script type="text/javascript" src="../scripts/jquery.cycle.all.js"></script>
+  <script type="text/javascript" src="../scripts/jquery.pngFix.pack.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('div#hd').pngFix();
+      $('div#ft').pngFix();
+    });
+  </script>
+  <!--[if lte IE 7]>
+    <link rel="stylesheet" href="/includes/c/base-ie7.css" type="text/css" media="screen" charset="utf-8" />
+    <![endif]-->
+  <!--[if lte IE 6]>
+    <link rel="stylesheet" href="/includes/c/base-ie6.css" type="text/css" media="screen" charset="utf-8" />
+    <script type="text/javascript" src="/includes/j/base-ie6.js"></script>
+    <![endif]-->
+  <!-- End of stylesandjs.html -->
+
+<script type="text/javascript" src="/gtag/js"></script></head>
+
+<body>
+  <!-- Patents Top Navigation: /includes/general/patent_header.html -->
+  <!-- Used in: MPEP and CPC -->
+  <!-- ID = $Id: patent_header.html 3457 2013-06-21 21:06:40Z janaki $ -->
+  <!-- URL = $URL: https://dev-wmb-svn.etc.uspto.gov/repos/live/active_content/trunk/includes/general/patent_header.html $ -->
+
+  <div id="custom-doc" class="yui-t2 custom-template">
+    <div id="hd">
+      <div id="identity"><!-- Begin sites/uspto.gov/includes/general/banner.inc-->
+
+        <img src="../images/logo.png" alt="uspto.gov" usemap="#logo">
+        <map name="logo" id="logo">
+          <area shape="rect" coords="0,0,443,93" href="https://www.uspto.gov/" alt="www.uspto.gov">
+          <area shape="rect" coords="80,89,368,108" href="https://www.doc.gov" alt="www.doc.gov">
+        </map>
+
+        <!-- End sites/uspto.gov/includes/general/banner.inc-->
+      </div>
+      <a href="#article" class="accessible">Skip over navigation</a>
+      <div id="globals"><!-- Begin sites/uspto.gov/includes/general/global_links.inc -->
+        <!-- Empty for New Home-page Design -->
+        <!-- End sites/uspto.gov/includes/general/global_links.inc -->
+        <!-- Begin sites/uspto.gov/includes/general/search.inc-->
+
+        <!-- Search box on the top -->
+
+        <div class="link"><a href="../pages/search.html">search for patents</a> | <a href="http://tmsearch.uspto.gov">search
+            for trademarks</a></div>
+        <form block="block-uspto-search" action="https://www-search.uspto.gov/WWW-search.html" method="GET" id="search-block-form">
+          <div class="input-group">
+            <!-- <label for="headerSearchInput" class="hidden">&nbsp;</label>-->
+            <input id="headerSearchInput" title="Search MPEP" name="q" placeholder="Search MPEP" class="form-control form-search" type="search" size="25" maxlength="128" style="height: 20px;" value="">
+            <input type="hidden" name="op" value="Search">
+            <input type="hidden" name="searchDomain" value="MPEP">
+            <input type="hidden" name="source" value="MPEP">
+            <input type="hidden" name="fresh" value="true">
+            <span class="input-group-btn">
+              <button id="headerSearchButton" class="btn btn-search btn-info btn-block" type="submit">
+                <span class="fas fa-search"></span>
+                <span class="sr-only">Search</span>
+              </button>
+            </span>
+          </div>
+        </form>
+        <!-- End sites/uspto.gov/includes/general/search.inc-->
+
+      </div><!-- Begin sites/uspto.gov/includes/general/global_nav.inc-->
+
+      <div id="menu">
+        <ul>
+          <li>
+            <a href="../pages/index.jsp.html">PATENTS <!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li>
+                <a href="../pages/index.jsp.html">Patent Search</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Patent Process</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Patent Classification</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Patent Forms</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Statistics</a>
+              </li>
+              <li>
+                <a href="../pages/about.jsp.html">Electronic Business Center</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Patent Laws, Regulations, Policies &amp; Procedures</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Resources and Guidance</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Office of Data Management</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Announcements</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Initiatives &amp; Events</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">International Protection</a>
+              </li>
+              <li>
+                <a href="http://portal.uspto.gov/external/portal/emlocator">Employee Locator</a>
+              </li>
+              <li>
+                <a href="../pages/contact_patents.jsp.html">Contact Patents</a>
+              </li>
+            </ul> <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+          </li>
+          <li class="nav_seperator"></li>
+          <li>
+            <a href="../pages/index.jsp.html">TRADEMARKS <!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li>
+                <a href="http://tess2.uspto.gov/bin/gate.exe?f=login&p_lang=english&p_d=trmk" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'exe,f=login,p_lang=english,p_d=trmk', 'eventLbl': '/bin/gate.exe', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'exe,f=login,p_lang=english,p_d=trmk', 'eventLbl': '/bin/gate.exe', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Trademark
+                  Search</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Trademarks Process</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">News &amp; Notices</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Manuals, Guides, Official Gazette</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Laws &amp; Regulations</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Online Filing</a>
+              </li>
+              <li>
+                <a href="../pages/contact_trademarks.jsp.html">Contact Trademarks</a>
+              </li>
+            </ul> <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+          </li>
+          <li class="nav_seperator"></li>
+          <li>
+            <a href="../pages/index.jsp.html">IP LAW &amp; POLICY <!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li>
+                <a href="../pages/index.jsp.html">Rulemaking</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">IP Policy and Enforcement</a>
+              </li>
+              <li>
+                <a href="../pages/iprtoolkits.jsp.html">Protecting IP Overseas</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Training and Education</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Training Programs &amp; Conferences</a>
+              </li>
+              <li>
+                <a href="../pages/officegovaffairs.jsp.html">Office of Governmental Affairs</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Office of Chief Economist</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Boards and Counsel</a>
+              </li>
+            </ul> <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+          </li>
+          <li class="nav_seperator"></li>
+          <li>
+            <a href="../pages/index.jsp.html">PRODUCTS &amp; SERVICES <!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li>
+                <a href="../pages/index.jsp.html">Electronic Data Products</a>
+              </li>
+              <li>
+                <a href="../pages/xml-resources.jsp.html">XML Resources</a>
+              </li>
+              <li>
+                <a href="../pages/xml-retrospective.jsp.html">XML Resources - Retrospective</a>
+              </li>
+              <li>
+                <a href="../pages/qisorder.jsp.html">USPTO Contact Center Order Form</a>
+              </li>
+              <li>
+                <a href="../pages/services.jsp.html">Services</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Locate Libraries</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Training/Events</a>
+              </li>
+              <li>
+                <a href="../pages/online-services.jsp.html">Online Services Hub</a>
+              </li>
+            </ul> <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+          </li>
+          <li class="nav_seperator"></li>
+          <li>
+            <a href="../pages/index.jsp.html">INVENTORS <!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li>
+                <a href="../pages/patents.jsp.html">Patents for Inventors</a>
+              </li>
+              <li>
+                <a href="../pages/trademarks.jsp.html">Trademarks for Inventors</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Inventors Assistance</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Education and Information</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Scam Prevention</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Pro Se and Pro Bono</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Current Events</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">State Resources</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">InventorsEye Newsletter</a>
+              </li>
+            </ul> <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+          </li>
+          <li class="nav_seperator"></li>
+          <li>
+            <a href="../pages/news-updates.html">NEWS &amp; NOTICES <!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li>
+                <a href="../pages/subscribe.html">Subscription Center</a>
+              </li>
+              <li>
+                <a href="../pages/news-updates.html">Press Releases</a>
+              </li>
+              <li>
+                <a href="../pages/news-updates.html">Testimony and Speeches</a>
+              </li>
+              <li>
+                <a href="../pages/blog.html">Director's Forum</a>
+              </li>
+              <li>
+                <a href="../pages/ebiz.html">Systems Status</a>
+              </li>
+              <li>
+                <a href="../pages/operating-status.html">Emergency Notices</a>
+              </li>
+              <li>
+                <a href="../pages/uspto-videos.html">USPTO Videos</a>
+              </li>
+              <li>
+                <a href="../pages/official-gazette.html">Official Gazette</a>
+              </li>
+              <li>
+                <a href="../pages/federal-register.html">Federal Register Notices</a>
+              </li>
+              <li>
+                <a href="../pages/events.html">Event Calendar</a>
+              </li>
+            </ul> <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+          </li>
+          <li class="nav_seperator"></li>
+          <li>
+            <a href="../pages/index.jsp.html">FAQs <!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li>
+                <a href="../pages/patents.jsp.html">Patents FAQs</a>
+              </li>
+              <li>
+                <a href="../pages/trademarks.jsp.html">Trademarks FAQs</a>
+              </li>
+              <li>
+                <a href="../pages/assignments.jsp.html">Assignments</a>
+              </li>
+              <li>
+                <a href="../pages/security.jsp.html">Security</a>
+              </li>
+              <li>
+                <a href="../pages/musicart.jsp.html">Musicians and Artists</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Browser Plugins</a>
+              </li>
+              <li>
+                <a href="../pages/other.jsp.html">Other Web Resources</a>
+              </li>
+            </ul> <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+          </li>
+          <li class="nav_seperator"></li>
+          <li>
+            <a href="../pages/index.jsp.html">ABOUT US <!--[if IE 7]><!--></a><!--<![endif]-->
+            <!--[if lte IE 6]><table><tr><td><![endif]-->
+            <ul>
+              <li>
+                <a href="../pages/index.jsp.html">USPTO Leadership</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">USPTO Organization</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">USPTO Offices</a>
+              </li>
+              <li>
+                <a href="../pages/careers.html">Careers</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Budget, Performance, and Planning</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Statistics</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Vendor Information</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Public Advisory Committees</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">National Medal of Technology and Innovation</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">IP in Motion</a>
+              </li>
+              <li>
+                <a href="../pages/index.jsp.html">Contact Us</a>
+              </li>
+            </ul> <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+          </li>
+        </ul>
+      </div>
+
+
+      <!-- End sites/uspto.gov/includes/general/global_nav.inc-->
+    </div>
+
+
+    <!-- End of patent_header.html -->
+
+    <!-- MPEP Breadcrumb: /includes/general/mpep_breadcrumb.html -->
+    <!-- ID = $Id: mpep_breadcrumb.html 1812 2010-12-13 14:53:27Z janaki $ -->
+    <!-- URL = $URL: https://dev-wmb-svn.etc.uspto.gov/repos/live/active_content/trunk/includes/general/mpep_breadcrumb.html $ -->
+
+    <div id="bd">
+      <div xmlns:bf="http://www.uspto.gov/bf" id="breadcrumb-container" class="clear-fix">
+        <ul id="breadcrumb">
+          <li class="first">
+            <a href="../pages/index.jsp.html"><span>Home Page</span></a>
+          </li>
+          <li>
+            <a href="../pages/index.jsp.html"><span>Patents</span></a>
+          </li>
+          <li>
+            <a href="../pages/index.jsp.html"><span>Patent Laws, Regulations, Policies &amp; Procedures </span></a>
+          </li>
+
+          <!-- End of mpep_breadcrumb.html -->
+          <li><a href="../pages/index.html">Manual of Patent Examining Procedure</a></li>
+          <li>Manual of Patent Examining Procedure</li>
+        </ul>
+      </div>
+      <div id="yui-main">
+        <div class="yui-b">
+          <div class="yui-g">
+            <div xmlns:bf="http://www.uspto.gov/bf" id="article">
+              <div>
+                <h1>
+                  <center>
+                    <b><span>Manual of Patent Examining Procedure (MPEP)</span></b>
+                  </center>
+                </h1>
+                <h1>
+                  <center>
+                    <b><span>Ninth Edition, Revision 01.2024</span></b>
+                  </center>
+                </h1>
+                <h3 style="font-size:14px; color:#666666;"><a href="../pages/index.htm.html">MPEP Archives</a> - PDF archive of
+                  previous publications of the manual from 1948 – 2023.</h3>
+
+                <h3 style="font-size:14px; color:#666666;">Please use <a href="../pages/mailto:MPEPFeedback@uspto.gov.html" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct':'Click', 'eventLbl': 'mailto:mpepfeedback@uspto.gov', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct':'Click', 'eventLbl': 'mailto:mpepfeedback@uspto.gov', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">MPEPFeedback@uspto.gov</a> to send an inquiry to the MPEP
+                  staff. </h3>
+
+                <br>
+                <h1>Updates Since Current MPEP</h1>
+                <blockquote>
+                  <p>The current MPEP (9th Edition, Rev. 01.2024), published November 2024, is up-to-date as of January
+                    31, 2024. Any changes to USPTO patent examining policies and procedures that occurred after January
+                    31, 2024, have not been incorporated into the current MPEP. </p>
+                  <br>
+                  <h3>The following are links to updated information:</h3>
+                  <p><a href="../pages/curr_fees.html">Current fees</a> – Refer to the Current USPTO Fee Schedule.</p>
+                  <p><a href="../documents/consolidated_laws.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/consolidated_laws.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/consolidated_laws.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Consolidated Laws</a> – The patent laws in effect as of July
+                    18, 2025.</p>
+                  <p><a href="../documents/consolidated_rules.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/consolidated_rules.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/consolidated_rules.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Consolidated Rules</a> – The patent rules in effect as of
+                    July 20, 2026.
+                  </p>
+                  <p><a href="../documents/subsequent-publications.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/subsequent-publications.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/subsequent-publications.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Subsequent Publications (After January 31, 2024)</a> –
+                    A listing of documents that made changes to USPTO patent examining policies and procedures after
+                    January 31, 2024, and are under consideration for inclusion in a future publication of the MPEP.
+                    This listing is current as of July 20, 2026.</p>
+
+
+                  <br>
+                  <h3>The following supersede one or more portions of the current MPEP:</h3>
+                  <p><a href="../documents/mpep_revised_design_fp_14jan2025.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/documents/mpep_revised_design_fp_14jan2025.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/documents/mpep_revised_design_fp_14jan2025.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Revised Form
+                      Paragraphs for Design Patents and Applications</a>, January 14, 2025 <br><a href="../documents/advance_notice_fp_17jan2025.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/documents/advance_notice_fp_17jan2025.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/documents/advance_notice_fp_17jan2025.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Revised and New Form
+                      Paragraphs in View of Setting and Adjusting Patent Fees During Fiscal Year 2025</a>, January 17,
+                    2025<br><a href="../documents/MPEP-similarity-search.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/documents/mpep-similarity-search.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/documents/mpep-similarity-search.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Advance Notice of
+                      Change to the MPEP to provide guidance on the use of PE2E Search’s Similarity Search feature</a>,
+                    October 24, 2025<br><a href="../documents/MPEP-certificate-entity-status.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/documents/mpep-certificate-entity-status.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/documents/mpep-certificate-entity-status.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Advance notice of change
+                      to
+                      the MPEP with respect to false assertions or certifications of entity status</a>,
+                    October 24, 2025<br><a href="../documents/ANC-Desjardins-Memo-12-5-25.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/anc-desjardins-memo-12-5-25.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/anc-desjardins-memo-12-5-25.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Advance notice of change to the MPEP in light of <em>Ex Parte Desjardins</em></a>, December 5, 2025</p>
+                </blockquote>
+
+                <br>
+                <h1>Current MPEP</h1>
+                <blockquote>
+
+                  <p>MPEP sections that were revised in the current MPEP have a revision indicator of [R-01.2024]
+                    adjacent to the section title. Throughout the MPEP, these revision indicators identify the date of
+                    the last revision to that section. </p>
+                  <p>See the “Change Summary” for an explanation of the changes made in the current MPEP.</p>
+                  <p>The current MPEP (9<sup>th</sup> Edition, Rev. 01.2024) is available in three formats: Searchable
+                    MPEP (eMPEP), HTML, and PDF.</p>
+
+                  <h2><span><a href="http://mpep.uspto.gov">Searchable MPEP (eMPEP)</a></span></h2>
+                  <ul>
+                    <li><strong><a href="../documents/searchable_mpep_guide.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/faq/patents/searchable_mpep_guide.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/faq/patents/searchable_mpep_guide.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">See the user manual
+                        </a> or <a href="../documents/searchable_mpep_qrg.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/faq/patents/searchable_mpep_qrg.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/sites/default/files/faq/patents/searchable_mpep_qrg.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">quick reference
+                          guide</a> for help with search features (e.g., default operators, proximity searches, and wild
+                        cards) and navigation.</strong></li>
+                  </ul>
+                  <br>
+                  <h2>HTML and PDF</h2>
+                  <p>Links below including a downloadable zip file:</p>
+
+                </blockquote>
+                <div xmlns=""> <a href="../pages/mpep-0005-change-summary.html">Change Summary</a>&#160; &#160; &#160;<a href="../documents/mpep-0005-change-summary.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0005-change-summary.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0005-change-summary.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF </a></div><a href="../documents/mpep-0005-change-summary.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0005-change-summary.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0005-change-summary.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">
+                </a><div xmlns=""><a href="../documents/mpep-0005-change-summary.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0005-change-summary.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0005-change-summary.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}"> </a><a href="../pages/mpep-0010-title-page.html">Title Page</a>&#160; &#160; &#160; <a href="../documents/mpep-0010-title-page.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0010-title-page.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0010-title-page.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a> </div>
+                <div xmlns=""> <a href="../pages/mpep-0015-foreword.html">Foreword</a>&#160; &#160; &#160; <a href="../documents/mpep-0015-foreword.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0015-foreword.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0015-foreword.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a> </div>
+                <div xmlns=""> <a href="../pages/mpep-0020-introduction.html">Introduction</a>&#160; &#160; &#160; <a href="../documents/mpep-0020-introduction.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0020-introduction.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0020-introduction.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a> </div>
+                <div xmlns=""> Table of Contents &#160; &#160; &#160; <a href="../documents/mpep-0000-table-of-contents.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0000-table-of-contents.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0000-table-of-contents.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>
+                </div>
+                <div xmlns=""> Chapter 100 - &#160; &#160; <a href="../documents/mpep-0100.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0100.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0100.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a> &#160; &#160; <a href="../pages/mpep-0100.html">Secrecy, Access, National Security, and Foreign Filing</a> </div>
+                <div xmlns=""> Chapter 200 - &#160; &#160; <a href="../documents/mpep-0200.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0200.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0200.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-0200.html">Types and Status of Application; Benefit and Priority Claims</a> </div>
+                <div xmlns=""> Chapter 300 - &#160; &#160; <a href="../documents/mpep-0300.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0300.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0300.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-0300.html">Ownership and Assignment</a> </div>
+                <div xmlns=""> Chapter 400 -&#160; &#160; <a href="../documents/mpep-0400.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0400.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0400.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160; <a href="../pages/mpep-0400.html">Representative of Applicant or Owner</a> </div>
+                <div xmlns=""> Chapter 500 - &#160; &#160; <a href="../documents/mpep-0500.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0500.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0500.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160; <a href="../pages/mpep-0500.html">Receipt and Handling of Mail and Papers</a> </div>
+                <div xmlns=""> Chapter 600 - &#160; &#160; <a href="../documents/mpep-0600.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0600.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0600.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-0600.html">Parts, Form, and Content of Application</a> </div>
+                <div xmlns=""> Chapter 700 - &#160; &#160; <a href="../documents/mpep-0700.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0700.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0700.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160; <a href="../pages/mpep-0700.html">Examination of Applications</a> </div>
+                <div xmlns=""> Chapter 800 - &#160; &#160; <a href="../documents/mpep-0800.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0800.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0800.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-0800.html">Restriction in Applications Filed Under 35 U.S.C. 111; Double Patenting</a>
+                </div>
+                <div xmlns=""> Chapter 900 - &#160; &#160; <a href="../documents/mpep-0900.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0900.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-0900.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-0900.html">Prior Art, Search, Classification, and Routing</a> </div>
+                <div xmlns=""> Chapter 1000 - &#160; &#160; <a href="../documents/mpep-1000.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1000.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1000.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160;&#160;<a href="../pages/mpep-1000.html">Matters Decided by Various U.S. Patent and Trademark Office Officials</a>
+                </div>
+                <div xmlns=""> Chapter 1100 - &#160; &#160; <a href="../documents/mpep-1100.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1100.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1100.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-1100.html">Statutory Invention Registration (SIR); Pre-Grant Publication (PGPub) and
+                    Preissuance Submissions</a> </div>
+                <div xmlns=""> Chapter 1200 - &#160; &#160; <a href="../documents/mpep-1200.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1200.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1200.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-1200.html"> Appeal</a> </div>
+                <div xmlns=""> Chapter 1300 - &#160; &#160; <a href="../documents/mpep-1300.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1300.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1300.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-1300.html">Allowance and Issue</a> </div>
+                <div xmlns=""> Chapter 1400 - &#160; &#160; <a href="../documents/mpep-1400.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1400.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1400.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-1400.html">Correction of Patents</a> </div>
+                <div xmlns=""> Chapter 1500 - &#160; &#160; <a href="../documents/mpep-1500.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1500.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1500.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-1500.html">Design Patents</a> </div>
+                <div xmlns=""> Chapter 1600 - &#160; &#160; <a href="../documents/mpep-1600.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1600.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1600.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-1600.html">Plant Patents</a> </div>
+                <div xmlns=""> Chapter 1700 - &#160; &#160; <a href="../documents/mpep-1700.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1700.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1700.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-1700.html">Miscellaneous</a> </div>
+                <div xmlns=""> Chapter 1800 - &#160; &#160; <a href="../documents/mpep-1800.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1800.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1800.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160; <a href="../pages/mpep-1800.html">Patent Cooperation Treaty</a> </div>
+                <div xmlns=""> Chapter 1900 - &#160; &#160; <a href="../documents/mpep-1900.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1900.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-1900.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-1900.html">Protest</a> </div>
+                <div xmlns=""> Chapter 2000 - &#160; &#160; <a href="../documents/mpep-2000.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2000.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2000.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-2000.html">Duty of Disclosure</a> </div>
+                <div xmlns=""> Chapter 2100 - &#160; &#160; <a href="../documents/mpep-2100.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2100.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2100.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-2100.html">Patentability</a> </div>
+                <div xmlns=""> Chapter 2200 - &#160; &#160; <a href="../documents/mpep-2200.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2200.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2200.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-2200.html">Citation of Prior Art and Ex Parte Reexamination of Patents</a> </div>
+                <div xmlns=""> Chapter 2300 - &#160; &#160; <a href="../documents/mpep-2300.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2300.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2300.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-2300.html">Interference and Derivation Proceedings </a> </div>
+                <div xmlns=""> Chapter 2400 - &#160; &#160; <a href="../documents/mpep-2400.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2400.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2400.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-2400.html">Biotechnology</a> </div>
+                <div xmlns=""> Chapter 2500 - &#160; &#160; <a href="../documents/mpep-2500.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2500.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2500.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-2500.html">Maintenance Fees</a> </div>
+                <div xmlns=""> Chapter 2600 - &#160; &#160; <a href="../documents/mpep-2600.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2600.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2600.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-2600.html">Optional Inter Partes Reexamination</a> </div>
+                <div xmlns=""> Chapter 2700 - &#160; &#160; <a href="../documents/mpep-2700.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2700.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2700.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-2700.html">Patent Terms, Adjustments, and Extensions</a> </div>
+                <div xmlns=""> Chapter 2800 - &#160; &#160; <a href="../documents/mpep-2800.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2800.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2800.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-2800.html">Supplemental Examination</a> </div>
+                <div xmlns=""> Chapter 2900 - &#160; &#160; <a href="../documents/mpep-2900.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2900.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-2900.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-2900.html">International Design Applications</a> </div>
+                <div xmlns=""> Appendix I - &#160; &#160; <a href="../documents/mpep-9005-appx-i.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9005-appx-i.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9005-appx-i.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-9005-appx-i.html">Reserved</a> </div>
+                <div xmlns=""> Appendix II - &#160; &#160; <a href="../documents/mpep-9010-appx-ii.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9010-appx-ii.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9010-appx-ii.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-9010-appx-ii.html">List of Decisions Cited</a> </div>
+                <div xmlns=""> Appendix L - &#160; &#160;<a href="../documents/mpep-9015-appx-l.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9015-appx-l.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9015-appx-l.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-9015-appx-l.html">Patent Laws</a> </div>
+                <div xmlns=""> Appendix R - &#160; &#160; <a href="../documents/mpep-9020-appx-r.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9020-appx-r.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9020-appx-r.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-9020-appx-r.html">Patent Rules</a> </div>
+                <div xmlns=""> Appendix T - &#160; &#160; <a href="../documents/mpep-9025-appx-t.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9025-appx-t.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9025-appx-t.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-9025-appx-t.html">Patent Cooperation Treaty</a> </div>
+                <div xmlns=""> Appendix AI - &#160; &#160; <a href="../documents/mpep-9030-appx-ai.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9030-appx-ai.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9030-appx-ai.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-9030-appx-ai.html">Administrative Instructions Under the PCT</a> </div>
+                <div xmlns=""> Appendix P - &#160; &#160;<a href="../documents/mpep-9035-appx-p.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9035-appx-p.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9035-appx-p.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a>&#160; &#160;<a href="../pages/mpep-9035-appx-p.html">Paris Convention</a> </div>
+                <div xmlns=""> <a href="../pages/mpep-index-a.html">Subject Matter Index </a>&#160; &#160; &#160;<a href="../documents/mpep-9090-subject-matter-index.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9090-subject-matter-index.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9090-subject-matter-index.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a></div>
+                <div xmlns=""><a href="../pages/mpep-9095-Form-Paragraph-Chapter.html">Form Paragraphs</a> &#160; &#160; &#160;<a href="../documents/mpep-9095-Form-Paragraph-Chapter.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9095-form-paragraph-chapter.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9095-form-paragraph-chapter.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">PDF</a> </div>
+                <div id="zipcollection">
+                  <p>&#160;</p>
+                  <p><a href="../pages/e9r-01-2024.zip.html" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'zip', 'eventLbl': '/web/offices/pac/mpep/e9r-01-2024.zip', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'zip', 'eventLbl': '/web/offices/pac/mpep/e9r-01-2024.zip', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Zipped version of the MPEP current revision</a> in the PDF format.
+
+                    <br>
+                  </p>
+                </div>
+                <!--<a name="Availability of MPEP in Paper Form and Other"></a>
+        <h3>Availability of MPEP on Paper and in Other
+          Formats</h3>-->
+                <table cellpadding="8" width="100%" bgcolor="#ccffcc" border="3">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <center>
+                          <p><b><span class="vertbar">Previous Editions and Revisions</span></b> <br>
+                            <br>
+                            <b>All previous editions and revisions of the Manual are available from the <a href="../pages/index.htm.html">MPEP Archives</a></b>
+                          </p>
+                          <br>
+                        </center>
+                        <blockquote compact="">
+                          <p><b>First Edition, November 1949&#160;</b> <br>
+                            <b>Second Edition, November 1953&#160;</b> <br>
+                            <b>Third Edition,
+                              November 1961&#160;</b> <br>
+                            <b>Fourth Edition, June 1979&#160;</b> <br>
+                            <b>Fifth Edition, August 1983&#160;</b> <br>
+                            <b>Sixth Edition,
+                              January 1995&#160;</b> <br>
+                            <b>Seventh Edition, July 1998&#160;</b> <br>
+                            <b>Eighth Edition, August 2001 <br>
+                            </b><strong>Ninth Edition, March 2014</strong>
+                          </p>
+                          <p>&#160;</p>
+                        </blockquote>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br>
+              </div>
+              <div>
+                <h1 class="page-title"> </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="yui-b">
+        <div id="aside">
+          <div id="rdms-sub-nav-container" xmlns:bf="http://www.uspto.gov/bf">
+            <ul id="sub-nav">
+              <li xmlns=""> <a href="../pages/mpep-0005-change-summary.html">Change Summary</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-0010-title-page.html">Title Page</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-0015-foreword.html">Foreword</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-0020-introduction.html">Introduction</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-0100.html">Chapter 100 - Secrecy, Access, National Security, and Foreign
+                  Filing</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-0200.html">Chapter 200 - Types, Cross-Noting, and Status of Application</a>
+              </li>
+              <li xmlns=""> <a href="../pages/mpep-0300.html">Chapter 300 - Ownership and Assignment</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-0400.html">Chapter 400 - Representative of Applicant or Owner</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-0500.html">Chapter 500 - Receipt and Handling of Mail and Papers</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-0600.html">Chapter 600 - Parts, Form, and Content of Application</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-0700.html">Chapter 700 - Examination of Applications</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-0800.html">Chapter 800 - Restriction in Applications Filed Under 35 U.S.C.
+                  111; Double Patenting</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-0900.html">Chapter 900 - Prior Art, Classification, and Search</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-1000.html">Chapter 1000 - Matters Decided by Various U.S. Patent and Trademark
+                  Office Officials</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-1100.html">Chapter 1100 - Statutory Invention Registration (SIR); Pre-Grant
+                  Publication (PGPub) and Preissuance Submissions</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-1200.html">Chapter 1200 - Appeal</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-1300.html">Chapter 1300 - Allowance and Issue</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-1400.html">Chapter 1400 - Correction of Patents</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-1500.html">Chapter 1500 - Design Patents</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-1600.html">Chapter 1600 - Plant Patents</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-1700.html">Chapter 1700 - Miscellaneous</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-1800.html">Chapter 1800 - Patent Cooperation Treaty</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-1900.html">Chapter 1900 - Protest</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-2000.html">Chapter 2000 - Duty of Disclosure</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-2100.html">Chapter 2100 - Patentability</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-2200.html">Chapter 2200 - Citation of Prior Art and Ex Parte Reexamination of
+                  Patents</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-2300.html">Chapter 2300 - Interference and Derivation Proceedings</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-2400.html">Chapter 2400 - Biotechnology</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-2500.html">Chapter 2500 - Maintenance Fees</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-2600.html">Chapter 2600 - Optional Inter Partes Reexamination</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-2700.html">Chapter 2700 - Patent Terms, Adjustments, and Extensions</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-2800.html">Chapter 2800 - Supplemental Examination</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-2900.html">Chapter 2900 - International Design Applications</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-9005-appx-i.html">Appendix I - Reserved</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-9010-appx-ii.html">Appendix II - List of Decisions Cited</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-9015-appx-l.html">Appendix L - Patent Laws</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-9020-appx-r.html">Appendix R - Patent Rules</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-9025-appx-t.html">Appendix T - Patent Cooperation Treaty</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-9030-appx-ai.html">Appendix AI - Administrative Instructions Under the PCT</a>
+              </li>
+              <li xmlns=""> <a href="../pages/mpep-9035-appx-p.html">Appendix P - Paris Convention</a> </li>
+              <li xmlns=""> <a href="../pages/mpep-index-a.html">Subject Matter Index</a> </li>
+              <li xmlns=""> <a href="../documents/mpep-9095-Form-Paragraph-Chapter.pdf" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9095-form-paragraph-chapter.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Assets', 'eventAct':'pdf', 'eventLbl': '/web/offices/pac/mpep/mpep-9095-form-paragraph-chapter.pdf', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Form Paragraphs </a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Navigation: /includes/general/footer2.html -->
+    <!-- Used in: MPEP, CPC -->
+    <!-- ID = $Id: footer2.html 3354 2013-04-23 18:43:33Z janaki $ -->
+    <!-- URL = $URL: https://dev-wmb-svn.etc.uspto.gov/repos/live/active_content/trunk/includes/general/footer2.html $ -->
+
+    <div id="ft" class="clear-fix">
+      <div class="colLogos"> <a href="http://www.uspto.gov/" title="United States Patent and Trademark Office"><img src="../images/footer_uspto.png" alt="United States Patent and Trademark Office" border="0"></a><br>
+      </div>
+      <div class="col">
+        <ul class="footer">
+          <li><a href="../pages/accessibility.jsp.html">Accessibility</a></li>
+          <li><a href="../pages/privact.jsp.html">Privacy Policy</a></li>
+          <li><a href="../pages/termsofuse.jsp.html">Terms of Use</a></li>
+          <li><a href="../pages/security.jsp.html">Security</a></li>
+          <li><a href="../pages/index_emergency.jsp.html">Emergencies/Security Alerts</a></li>
+          <li><a href="../pages/infoqualityguide.jsp.html">Information Quality Guidelines</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="footer">
+          <li><a href="../pages/index.jsp.html">Federal Activities Inventory Reform (FAIR) Act</a></li>
+          <li><a href="../pages/index.jsp.html">Notification and Federal Employee Antidiscrimination and
+              Retaliation (NoFEAR) Act</a></li>
+          <li><a href="../pages/index.jsp.html">Budget &amp; Performance</a></li>
+          <li><a href="../pages/index.jsp.html">Freedom of Information Act (FOIA)</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="footer">
+          <li><a href="http://www.osec.doc.gov/ocr/nofear/nofear.htm" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct':'Click', 'eventLbl': 'osec.doc.gov/ocr/nofear/nofear.htm', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct':'Click', 'eventLbl': 'osec.doc.gov/ocr/nofear/nofear.htm', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Department of Commerce NoFEAR Act Report</a></li>
+          <li><a href="http://www.regulations.gov/" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct':'Click', 'eventLbl': 'regulations.gov/', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct':'Click', 'eventLbl': 'regulations.gov/', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Regulations.gov</a></li>
+          <li><a href="http://www.stopfakes.gov/" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct':'Click', 'eventLbl': 'stopfakes.gov/', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct':'Click', 'eventLbl': 'stopfakes.gov/', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">STOP!Fakes.gov</a></li>
+          <li><a href="http://www.commerce.gov/" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct':'Click', 'eventLbl': 'commerce.gov/', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct':'Click', 'eventLbl': 'commerce.gov/', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Department of Commerce</a></li>
+          <li><a href="http://www.usa.gov/" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct':'Click', 'eventLbl': 'usa.gov/', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct':'Click', 'eventLbl': 'usa.gov/', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">USA.gov</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="footer">
+          <li><a href="../pages/stopfakes.jsp.html">Strategy Targeting Organized Piracy (STOP!)</a></li>
+          <li><a href="../pages/careers.html">Careers</a></li>
+          <li><a href="../pages/siteindex.jsp.html">Site Index</a></li>
+          <li><a href="../pages/index.jsp.html">Contact Us</a></li>
+          <li><a href="../pages/mailto:MPEPFeedback@uspto.gov.html" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct':'Click', 'eventLbl': 'mailto:mpepfeedback@uspto.gov', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});" onkeydown="{if (event.which == 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct':'Click', 'eventLbl': 'mailto:mpepfeedback@uspto.gov', 'eventPos': 'Not Found', 'eventVal': 0, 'nonInteraction': 0});}}">Submit Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+    <div style="width:100%">
+      <div style="float:left;margin-left:15px"> This page is owned by Patents.</div>
+      <div style="text-align:right"> Last Modified:
+
+        11/05/2015 11:53:50
+      </div>
+    </div>
+  </div>
+  <div id="extra-div-1"> <span> </span></div>
+  <div id="extra-div-2"> <span> </span></div>
+  <div id="extra-div-3"> <span> </span></div>
+  <div id="extra-div-4"> <span> </span></div>
+  <div id="extra-div-5"> <span> </span></div>
+  <div id="extra-div-6"> <span> </span></div>
+
+  <!-- End of footer2.html -->
+
+
+
+<script type="text/javascript" charset="">var $=jQuery,juicyElement,scrolled=0,maxScr=0,percentage=0,trackingBenchmarks=[[25,!1],[50,!1],[75,!1],[100,!1]],maxIdx=trackingBenchmarks.length-1,theWin=jQuery(window)[0];
+function scrollWatcher(){scrolled=percentageSeen();if(!(scrolled<=maxScr))for(maxScr=scrolled,idx=maxIdx;idx>-1;)if(maxScr>=trackingBenchmarks[idx][0]&&!trackingBenchmarks[idx][1]){var a=trackingBenchmarks[idx][0]+"%";dataLayer.push({event:"eventTracker",eventCat:"Content Scroll",eventAct:"scroll",eventLbl:a,eventPos:"In Page",eventVal:0,nonInteraction:"0"});trackingBenchmarks[idx][1]=!0}else idx--}
+function percentageSeen(){if(theWin.innerHeight<juicyElement.getBoundingClientRect().y)return 0;percentage=(theWin.innerHeight-juicyElement.getBoundingClientRect().y)/juicyElement.getBoundingClientRect().height*100;percentage=Math.round(percentage);percentage>=100&&$(theWin).off("scroll");return percentage>=100?100:percentage}var pagetype=jQuery("head meta[name\x3d'uspto.pagetype']").attr("content");
+if(pagetype=="major-landing-v2"||pagetype=="homepage"||pagetype=="homepage-v2")juicyElement=$(".scroll-tracked").length>0?$(".scroll-tracked")[0]:$("#main")>0?$("#main")[0]:$(".main").length>0?$(".main")[0]:$(".main-content").length>0?$(".main-content")[0]:$("#main-container").length>0?$("#main-container")[0]:$("#main-content").length>0?$("#main-content")[0]:$("html")[0],$(theWin).on("scroll",scrollWatcher),$(theWin).trigger("scroll");</script><script type="text/javascript" charset="">jQuery("div.featured-card__card a").mousedown(function(){dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Feature Card",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});</script><script type="text/javascript" id="gtm_auto_tracker" charset="">var domains_to_track=["uspto.gov","sharepoint.com","usptogov.sharepoint.com"],folders_to_track="",extDoc=".doc .docx .xls .xlsx .xlsm .ppt .pptx .exe .zip .pdf .js .txt .csv .msi".split(" "),socSites="",isSubDomainTracker=!0,isSeparateDomainTracker=!1,isGTM=!0,eValues={downloads:{category:"Assets",action:"Download",label:"",position:"",value:0,nonInteraction:0},outbound_downloads:{category:"Outbound Assets",action:"Download",label:"",position:"",value:0,nonInteraction:0},outbounds:{category:"Outbound Links",
+action:"Click",label:"",position:"",value:0,nonInteraction:0},email:{category:"Email Clicks",action:"Click",label:"",position:"",value:0,nonInteraction:0},outbound_email:{category:"Outbound Email Clicks",action:"Click",label:"",position:"",value:0,nonInteraction:0},telephone:{category:"Telephone Clicks",action:"Click",label:"",position:"",value:0,nonInteraction:0},social:{category:"Social Profiles",action:"Click",label:"",position:"",value:0,nonInteraction:0}},evPosition="Not found",mainDomain=document.location.hostname.match(/(([^.\/]+\.[^.\/]{2,3}\.[^.\/]{2})|(([^.\/]+\.)[^.\/]{2,4}))(\/.*)?$/)[1];
+mainDomain=mainDomain.toLowerCase();isSubDomainTracker==1&&(mainDomain=document.location.hostname.replace("www.","").toLowerCase());var arr=document.getElementsByTagName("a");
+for(i=0;i<arr.length;i++){var flag=0,mDownAtt=arr[i].getAttribute("onmousedown"),doname="",linkType="",mailPattern=/^mailto:[a-zA-Z0-9._-]+@[a-zA-Z0-9.?=-]+\.[a-zA-Z]{2,4}([\w#!:.?+=&%@!\-\/]*)?/i,urlPattern=/^(ftp|http|https):\/\/(\w+:{0,1}\w*)?(\S+)(:[0-9]+)?(\/|\/([\w_#!:.?+=&%@!\-\/ \)\(]))?/i,telPattern=/^tel:(.*)([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/i;evPosition=arr[i].closest("main")!==null||arr[i].closest("#mainArea")!==null?"In Page":arr[i].closest("header")!==null||arr[i].closest("#usptoGlobalHeader")!==
+null||arr[i].closest("footer")!==null||arr[i].closest("#usptoAppFooter")!==null?"Navigation":"Not Found";if(mailPattern.test(arr[i].href)||urlPattern.test(arr[i].href)||telPattern.test(arr[i].href)){try{!urlPattern.test(arr[i].href)||mailPattern.test(arr[i].href)||telPattern.test(arr[i].href)?!mailPattern.test(arr[i].href)||telPattern.test(arr[i].href)||urlPattern.test(arr[i].href)?!telPattern.test(arr[i].href)||urlPattern.test(arr[i].href)||mailPattern.test(arr[i].href)||(doname=arr[i].href.toLowerCase(),
+linkType="tel"):(doname=arr[i].href.toLowerCase().split("@")[1],linkType="mail"):(doname=arr[i].hostname.toLowerCase().replace("www.",""),linkType="url")}catch(b){continue}if(mDownAtt!=null&&(mDownAtt=String(mDownAtt),mDownAtt.indexOf("dataLayer.push")>-1||mDownAtt.indexOf("('send'")>-1))continue;var condition=!1;if(condition=isSeparateDomainTracker?doname==mainDomain:doname.indexOf(mainDomain)!=-1)if(linkType==="mail")eValues.email.label=arr[i].href.toLowerCase().match(/^mailto:[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}([\w#!:.?+=&%@!\-\/]*)/i),
+_tagLinks(arr[i],eValues.email.category,eValues.email.action,eValues.email.label,evPosition,eValues.email.value,eValues.email.nonInteraction,mDownAtt);else{if(linkType==="url"){var gateOutboundLink=/^https?:\/\/(www\.)?tmsearch\.uspto\.gov\/bin\/gate\.exe.*$/ig;gateOutboundLink.test(arr[i].href)?(eValues.outbounds.label=arr[i].href.toLowerCase().replace("www.","").split("//")[1],_tagLinks(arr[i],eValues.outbounds.category,eValues.outbounds.action,eValues.outbounds.label,evPosition,eValues.outbounds.value,
+eValues.outbounds.nonInteraction,mDownAtt)):folders_to_track==""||_isInternalFolder(arr[i].href)?_isDownload(arr[i].href)&&(_setDownloadData(arr[i].href,doname),_tagLinks(arr[i],eValues.downloads.category,eValues.downloads.action,eValues.downloads.label,evPosition,eValues.downloads.value,eValues.downloads.nonInteraction,mDownAtt)):_isDownload(arr[i].href)?(_setDownloadData(arr[i].href,doname),_tagLinks(arr[i],eValues.outbound_downloads.category,eValues.outbound_downloads.action,eValues.outbound_downloads.label,
+eValues.outbound_downloads.value,eValues.outbound_downloads.nonInteraction,mDownAtt)):(eValues.outbounds.label=arr[i].href.toLowerCase().replace("www.","").split("//")[1],_tagLinks(arr[i],eValues.outbounds.category,eValues.outbounds.action,eValues.outbounds.label,evPosition,eValues.outbounds.value,eValues.outbounds.nonInteraction,mDownAtt))}}else for(var k=0;k<domains_to_track.length;k++){var condition1=!1;condition1=isSeparateDomainTracker?doname==domains_to_track[k]:doname.indexOf(domains_to_track[k])!=
+-1;condition1?linkType==="mail"?(eValues.email.label=arr[i].href.toLowerCase().match(/[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}([\w#!:.?+=&%@!\-\/]*)/i),_tagLinks(arr[i],eValues.email.category,eValues.email.action,eValues.email.label,evPosition,eValues.email.value,eValues.email.nonInteraction,mDownAtt)):linkType==="url"&&(folders_to_track==""||_isInternalFolder(arr[i].href)?_isDownload(arr[i].href)&&(_setDownloadData(arr[i].href,doname),_tagLinks(arr[i],eValues.downloads.category,eValues.downloads.action,
+eValues.downloads.label,evPosition,eValues.downloads.value,eValues.downloads.nonInteraction,mDownAtt)):_isDownload(arr[i].href)?(_setDownloadData(arr[i].href,doname),_tagLinks(arr[i],eValues.outbound_downloads.category,eValues.outbound_downloads.action,eValues.outbound_downloads.label,evPosition,eValues.outbound_downloads.value,eValues.outbound_downloads.nonInteraction,mDownAtt)):(eValues.outbounds.label=arr[i].href.replace("www.","").split("//")[1],_tagLinks(arr[i],eValues.outbounds.category,eValues.outbounds.action,
+eValues.outbounds.label,evPosition,eValues.outbounds.value,eValues.outbounds.nonInteraction,mDownAtt))):(flag++,flag==domains_to_track.length&&(linkType==="mail"&&(eValues.outbound_email.label=arr[i].href.toLowerCase().match(/[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}([\w#!:.?+=&%@!\-\/]*)/),_tagLinks(arr[i],eValues.outbound_email.category,eValues.outbound_email.action,eValues.outbound_email.label,evPosition,eValues.outbound_email.value,eValues.outbound_email.nonInteraction,mDownAtt)),linkType===
+"tel"&&(eValues.telephone.label=arr[i].href.toLowerCase().split("tel:")[1],_tagLinks(arr[i],eValues.telephone.category,eValues.telephone.action,eValues.telephone.label,evPosition,eValues.telephone.value,eValues.telephone.nonInteraction,mDownAtt)),linkType==="url"&&(_isDownload(arr[i].href)?(_setDownloadData(arr[i].href,doname),_tagLinks(arr[i],eValues.outbound_downloads.category,eValues.outbound_downloads.action,eValues.outbound_downloads.label,evPosition,eValues.outbound_downloads.value,eValues.outbound_downloads.nonInteraction,
+mDownAtt)):_isSocial(arr[i].href)?(eValues.social.label=arr[i].href.toLowerCase().replace("www.","").split("//")[1],eValues.social.action=eValues.social.label.split(".")[0],_tagLinks(arr[i],eValues.social.category,eValues.social.action,eValues.social.label,evPosition,eValues.social.value,eValues.social.nonInteraction,mDownAtt)):(eValues.outbounds.label=arr[i].href.toLowerCase().replace("www.","").split("//")[1],_tagLinks(arr[i],eValues.outbounds.category,eValues.outbounds.action,eValues.outbounds.label,
+evPosition,eValues.outbounds.value,eValues.outbounds.nonInteraction,mDownAtt)))))}}}function _isSocial(b){return socSites!=""?b.toLowerCase().replace(/[+#]/,"").match(new RegExp("^(.*)("+socSites.toLowerCase()+")(.*)$"))!=null?!0:!1:!1}function _isInternalFolder(b){return folders_to_track!=""?b.toLowerCase().match(new RegExp("^(.*)("+folders_to_track+")(.*)$"))!=null?!0:!1:!1}
+function _isDownload(b){for(var d=0,c=0;c<extDoc.length;c++){var a=b.split(".");a=a[a.length-1].split(/[#?&?]/);if("."+a[0].toLowerCase()==extDoc[c])return!0;d++;if(d==extDoc.length)return!1}}function _setDownloadData(b,d){var c=b.toLowerCase().split(".");c=c[c.length-1].split(/[#?&?]/);b=b.toLowerCase().split(d);b=b[1].split(/[#?&?]/);eValues.downloads.action=eValues.outbound_downloads.action=c;eValues.downloads.label=eValues.outbound_downloads.label=b}
+function _tagLinks(b,d,c,a,f,g,h,e){a=Array.isArray(a)?a[0]:a;a.toLowerCase().indexOf("uspto.my.salesforce-sites.com/events/eventsregistrationform")>-1?(d="Web Forms",c="Registration",a=a.substr(a.toLocaleLowerCase().indexOf("eventid\x3d"),a.length),f="In Page"):a.toLowerCase().indexOf("uspto.my.salesforce-sites.com/events/eventsinterestform")>-1?(d="Web Forms",c="Event Interest",a=a.substr(a.toLocaleLowerCase().indexOf("eventid\x3d"),a.length),f="In Page"):a.toLowerCase().indexOf("uspto.my.salesforce-sites.com/events")>
+-1?(d="Web Forms",c="Speaker Request",a="Speaker Request Form",f="In Page"):a.toLowerCase().indexOf("uspto.my.site.com/survey/runtimeapp.app")>-1&&(d="Web Forms",c="Registration",params=new URLSearchParams(a),a=params.get("surveyname"),f="In Page");isGTM?(b.setAttribute("onmousedown",(e!=null?e+"; ":"")+"dataLayer.push({'event': 'eventTracker', 'eventCat': '"+d+"', 'eventAct':'"+c+"', 'eventLbl': '"+a+"', 'eventPos': '"+f+"', 'eventVal': "+g+", 'nonInteraction': "+h+"});"),b.setAttribute("onkeydown",
+(e!=null?e+"; ":"")+"{if (event.which \x3d\x3d 13) {dataLayer.push({'event': 'eventTracker', 'eventCat': '"+d+"', 'eventAct':'"+c+"', 'eventLbl': '"+a+"', 'eventPos': '"+f+"', 'eventVal': "+g+", 'nonInteraction': "+h+"});}}")):(b.setAttribute("onmousedown",(e!=null?e+"; ":"")+"ga('send', 'event', '"+d+"', '"+c+"', '"+a+"', "+g+", {nonInteraction:("+h+" \x3d\x3d 0) ? false : true});"),b.setAttribute("onkeydown",(e!=null?e+"; ":"")+"{if (event.which \x3d\x3d 13) {ga('send', 'event', '"+d+"', '"+c+"', '"+
+a+"', "+g+", {nonInteraction:("+h+" \x3d\x3d 0) ? false : true});}}"))};</script>
+<script id="_fed_an_ua_tag" text="" charset="" type="text/javascript" src="../scripts/Uni-Fed-Min.js"></script><script type="text/javascript" id="ga__alerts__" charset="">jQuery(".alert a").not(".no-op").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Alert Links",eventAct:"In Page Alert Link Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});jQuery(".alert button").mousedown(function(){dataLayer.push({event:"eventTracker",eventCat:"Alert Links",eventAct:"Dismissed In Page Alert",eventLbl:"x out",eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#outage-notice a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Alert Links",eventAct:"Global Alert Link Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});</script><script type="text/javascript" id="ga__accordion__" charset="">jQuery("form[id|\x3dcollapse-text-dynamic-form-number] \x3e div.toggle-all \x3e a.expand-all").mousedown(function(){console.log("aria-expanded is "+jQuery(event.target).attr("aria-expanded"));jQuery(event.target).attr("aria-expanded")=="false"&&dataLayer.push({event:"eventTracker",eventCat:"Website Accordion Menu",eventAct:"Expand All",eventLbl:jQuery(this).text(),eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("details \x3e summary[role\x3d'button'][aria-expanded\x3d'false']").mousedown(function(){console.log("aria-expanded is "+jQuery(event.target).attr("aria-expanded"));event.target.closest("summary[role\x3d'button']").getAttribute("aria-expanded")=="false"&&dataLayer.push({event:"eventTracker",eventCat:"Website Accordion Menu",eventAct:"Expand",eventLbl:jQuery(this).text(),eventPos:"In Page",eventVal:0,nonInteraction:0})});</script><script type="text/javascript" id="ga__main_menu__" charset="">jQuery("#block-uspto-account-menu a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Universal Header Link",eventLbl:this.href,eventPos:"Navigation",eventVal:0,nonInteraction:0})});jQuery("#block-uspto-main-menu a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Navigation Menu",eventLbl:this.href,eventPos:"Navigation",eventVal:0,nonInteraction:0})});
+jQuery("#patentsTab a ").mousedown(function(){this.ownerDocument.URL.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Events Item Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});jQuery("#trademarksTab a ").mousedown(function(){this.ownerDocument.URL.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Initiatives Item Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#home-page-hero-new-to-ip-block a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"New To IP",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});jQuery("#home-hero-item h2").mousedown(function(a){a.stopPropagation();a=jQuery(this).parent().attr("href");dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Hero click",eventLbl:a,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#home-hero-item a").mousedown(function(a){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Hero Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#slick-views-uspto-homepage-tool-ribbon-entity-view-1-1 button").mousedown(function(){jQuery(this).attr("aria-disabled")=="false"&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Toolbar Scroll",eventLbl:this.getAttribute("aria-label"),eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#slick-views-uspto-homepage-tool-ribbon-entity-view-1-1-slider a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Toolbar Item Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#newsPanel a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&this.ownerDocument.location.toString().search(/uspto.gov[\/]?\w?/i)>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"TriTab News Item Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#eventsPanel a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&this.ownerDocument.location.toString().search(/uspto.gov[\/]?\w?/i)>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"TriTab Events Item Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#remarksPanel a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&this.ownerDocument.location.toString().search(/uspto.gov[\/]?\w?/i)>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"TriTab Remarks Item Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#blogPanel a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&this.ownerDocument.location.toString().search(/uspto.gov[\/]?\w?/i)>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"TriTab Blog Item Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#pullQuoteLink").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Pull Quote Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("div.blog-category").mousedown(function(a){a.stopPropagation();a=jQuery(this).parents("a")[0].href;a.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Feature Card",eventLbl:a,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("div.blog-image").mousedown(function(){var a=jQuery(this).parents("a")[0].href;a.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Feature Card",eventLbl:a,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("div.blog-teaser \x3e div.teaser-title").mousedown(function(){var a=jQuery(this).parents("a")[0].href;a.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Feature Card",eventLbl:a,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#block-uspto-theme-system-main \x3e article \x3e div.node__content \x3e div \x3e div \x3e div \x3e div \x3e div \x3e h2 \x3e a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Bucket Links Section",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#block-uspto-theme-system-main \x3e article \x3e div.node__content \x3e div \x3e div \x3e div \x3e div \x3e div \x3e div \x3e ul \x3e li \x3e a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Bucket Links Link",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#block-uspto-theme-system-main \x3e article \x3e div \x3e div.field.field--name-field-reference-section.field--type-entity-reference-revisions.field--label-hidden.callout.field__items \x3e div \x3e ul \x3e li \x3e a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Bucket Links Link",eventLbl:this.href,eventPos:"Navigation",eventVal:0,nonInteraction:0})});
+jQuery("#uspto-top-nav  div.ql-link \x3e div.field.field--name-field-link.field--type-link.field--label-hidden.field__items \x3e div \x3e a").mousedown(function(){this.ownerDocument.URL.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Find It Fast Item Click",eventLbl:this.href,eventPos:"Navigation",eventVal:0,nonInteraction:0})});
+jQuery("#slick-views-major-landing-page-views-entity-view-1-1 button").mousedown(function(){jQuery(this).attr("aria-disabled")=="false"&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Toolbar Scroll",eventLbl:this.getAttribute("aria-label"),eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#slick-views-major-landing-page-views-entity-view-1-1-slider a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Toolbar Item Click",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#block-uspto-theme-system-main \x3e article div \x3e div.blog-image \x3e a \x3e div \x3e img").mousedown(function(){var a=this.parentElement.parentElement.href;a.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Feature Card",eventLbl:a,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#block-uspto-theme-system-main div.blog-teaser \x3e div \x3e a span").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Feature Card",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("div.region.region-footer a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Footer",eventLbl:this.href,eventPos:"Navigation",eventVal:0,nonInteraction:0})});
+jQuery("article.node-14 li.span4 a, article.node-14 li.span6 a, article.node-15 li.span4 a, article.node-15 li.span6 a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"News and Updates",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("aside.sidebar.sidebar-right a").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Side Bar",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});jQuery("#headerSearchButton").mousedown(function(){dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Universal Header Search Click",eventLbl:jQuery("#headerSearchInput").val(),eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#headerSearchInput").keypress(function(a){a.which==13&&dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Universal Header Search Click",eventLbl:jQuery(this).val(),eventPos:"In Page",eventVal:0,nonInteraction:0})});jQuery("div.mb-2 a").mousedown(function(){dataLayer.push({event:"eventTracker",eventCat:"Footer",eventAct:"Prefooter clicks",eventLbl:event.target.outerText,eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#modern-footer a[href^\x3d'https://']").mousedown(function(){dataLayer.push({event:"eventTracker",eventCat:"Footer",eventAct:"Footer Clicks",eventLbl:event.target.outerText,eventPos:"Navigation",eventVal:0,nonInteraction:0})});jQuery("#modern-footer button[value\x3d'Subscribe']").mousedown(function(){dataLayer.push({event:"eventTracker",eventCat:"Footer",eventAct:"Footer Clicks",eventLbl:"GovDelivery Subscribe",eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery("#email").keypress(function(a){a.which==13&&dataLayer.push({event:"eventTracker",eventCat:"Footer",eventAct:"Footer Clicks",eventLbl:"GovDelivery Subscribe",eventPos:"In Page",eventVal:0,nonInteraction:0})});
+jQuery(".simple-button-plugin").mousedown(function(){if(jQuery(this).attr("aria-expanded")!="true"&&!(this.closest("div.kids-header")||jQuery(this).parent().hasClass("slider-item__btn")||!jQuery(this).hasClass("view-move")&&(this.href.indexOf("uspto.my.site.com")>-1||this.href.indexOf("uspto.my.salesforce.sites.com")>-1)))if(jQuery(this).attr("aria-expanded")=="false"){var a=$(this).parent().closest("div.uspto__collapsible-panel-item").first().find("h2 div").first().text();dataLayer.push({event:"eventTracker",
+eventCat:"Website Accordion Menu",eventAct:"Flex - Show More",eventLbl:a,eventPos:"In Page",eventVal:0,nonInteraction:0})}else dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Button",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});</script>
+<script type="text/javascript" charset="">jQuery("#header-share-print").on("click","a.addthis_button div#share-box \x3e ul \x3e li \x3e a",function(){-1<this.ownerDocument.URL.indexOf("uspto.gov")&&(actionText=$(event.target).text(),10>actionText.length&&dataLayer.push({event:"eventTracker",eventCat:"Header Social Share Button",eventAct:actionText,eventLbl:window.location.href,eventVal:0,nonInteraction:0}))});
+jQuery("div.content-footer").on("click","a.addthis_button div#share-box \x3e ul \x3e li \x3e a",function(){-1<this.ownerDocument.URL.indexOf("uspto.gov")&&dataLayer.push({event:"eventTracker",eventCat:"Footer Social Share Button",eventAct:$(event.target).text(),eventLbl:window.location.href,eventVal:0,nonInteraction:0})});</script>
+<script type="text/javascript" charset="">(function(){var l=function(e,g,f,h){this.get=function(a){a+="\x3d";for(var b=document.cookie.split(";"),c=0,k=b.length;c<k;c++){for(var d=b[c];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};this.set=function(a,b){var c=new Date;c.setTime(c.getTime()+6048E5);c="; expires\x3d"+c.toGMTString();document.cookie=a+"\x3d"+b+c+"; path\x3d/; "};this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==g&&(e=Math.random()>=
+e/100?0:100),a=[g,e,0],this.set(f,a.join(":"));else return!0;var b=a[1];if(100==b)return!0;switch(a[0]){case "v":return!1;case "r":return b=a[2]%Math.floor(100/b),a[2]++,this.set(f,a.join(":")),!b}return!0};this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=h;document.body&&document.body.appendChild(a)}};this.start=function(){var a=this;"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",function(){a.go()},
+!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()}):a.go()}};try{(new l(100,"r","QSI_S_ZN_38hORMqIGgjilAq","https://zn38hormqiggjilaq-uspto.gov1.siteintercept.qualtrics.com/SIE/?Q_ZID\x3dZN_38hORMqIGgjilAq")).start()}catch(e){}})();</script><script type="text/javascript" src="/SIE/"></script><div id="ZN_38hORMqIGgjilAq"></div>
+<script type="text/javascript" charset="">jQuery("div.slider-item__btn a.btn-primary.simple-button-plugin").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&(lbl=$(this).attr("href"),dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Flex Slider Click",eventLbl:lbl,eventPos:"In Page",eventVal:0,nonInteraction:0}))});</script><script type="text/javascript" charset="">jQuery("h3 a.related-link__link").mousedown(function(){this.href.indexOf("uspto.gov")>-1&&(lbl=$(this).attr("href"),dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Related Links",eventLbl:lbl,eventPos:"In Page",eventVal:0,nonInteraction:0}))});</script><script type="text/javascript" charset="">jQuery("div.paragraph--type--uspto-media-slider-item a.media-slider-item__link").mousedown(function(){dataLayer.push({event:"eventTracker",eventCat:"Internal Links",eventAct:"Media Slider",eventLbl:this.href,eventPos:"In Page",eventVal:0,nonInteraction:0})});</script><script src="../scripts/CoreModule.js" defer></script><script src="../scripts/LinkModule.js" defer></script><script src="../scripts/WebResponsiveDialogModule.js" defer></script><div style="display: none;"></div></body></html>
